@@ -1,0 +1,35 @@
+#corporate-events-link {
+  text-decoration: none;
+  color: #000;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+#corporate-events-tooltip {
+  position: absolute;
+  z-index: 10;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: none;
+}
+ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+ul li {
+      margin-bottom: 5px;
+    }
+.center-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
