@@ -2,6 +2,12 @@
   text-decoration: none;
   color: #000;
 }
+
+.menu-item btn {
+  display: flex;
+  width: 100px;
+  height: 50px;
+}
 .header {
   position: fixed;
   top: 0;
