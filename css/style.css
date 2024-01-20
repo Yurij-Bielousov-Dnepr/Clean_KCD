@@ -37,7 +37,30 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
+.columns {
+  display: flex;
+  flex-direction: row;
+}
 
+.column-1 {
+  width: 50%;
+  padding: 10px;
+}
+
+.column-2 {
+  width: 50%;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .columns {
+    flex-direction: column;
+  }
+
+  .column-1, .column-2 {
+    width: 100%;
+  }
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
