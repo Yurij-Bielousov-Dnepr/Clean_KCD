@@ -73,7 +73,17 @@ button {
   padding: 1rem;
   background-color: #f5f5f5;
 }
+section#menu {
+  background-color: #ffffff;
+  /*border: 1px solid #000000;*/
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 
+}
+section#menu > ul > li {
+  border: 1px solid #ff7f00;
+}
 .footer-info-item {
   display: inline-block;
   margin-right: 1rem;
