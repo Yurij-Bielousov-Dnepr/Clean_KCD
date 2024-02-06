@@ -101,6 +101,9 @@ section#menu > ul > li {
   border: 1px solid black;
 }
 html {
+  margin: 8px;
+  margin-top: 16px;
+  padding: 0 8px;   /*- Відступ 8 пікселів зліва і справа.*/
   color: #222;
   font-size: 1em;
   line-height: 1.4;
