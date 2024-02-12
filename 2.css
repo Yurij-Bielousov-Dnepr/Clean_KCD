@@ -20,9 +20,9 @@
     flex-direction: column;
   }
 
-  .column-1, .column-2 {
-    width: 100%;
-  }
+  /*.column-1, .column-2 {*/
+  /*  width: 100%;*/
+  /*}*/
 }
 /* ==========================================================================
    Base styles: opinionated defaults
