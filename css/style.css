@@ -21,9 +21,41 @@ body {
 
 /* Налаштування заголовків */
 /* Встановлює розмір заголовків h1 на 24 пікселі, жирність на bold. */
+/* H1 - Головні підрозділи */
 h1 {
-  font-size: 24px;
+  text-align: center;
   font-weight: bold;
+}
+
+/* H2 - Внутрішні заголовки */
+h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+/* H3 - Текст підрозділів */
+h3 {
+  text-align: left;
+}
+
+/* H4 - Другорядний текст */
+h4 {
+  text-align: left;
+  font-size: 10px smaller;
+}
+
+/* H5 - Розгортаємі підрозділи */
+h5 {
+  text-align: left;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* H6 - Схований текст */
+h6 {
+  text-align: left;
+  color: #fff;
+  background-color: #fff;
 }
 
 /* Налаштування абзаців */
