@@ -15,15 +15,14 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-/*  color: #000;
-text-gradient: linear-gradient(to right, #000000, #ffffff);*/
-
-  background: linear-gradient(to right, #f0f8ff, #0000ff);
+  color: #000;
+background: linear-gradient(to right,#fff000 , #0057b7);
+/*  background: linear-gradient(to right, #f0f8ff, #0000ff);*/
 }
-  .text-gradient {
-  @apply text-gradient-to-right;
-  @apply text-white-to-black;
-}
+/*  .text-gradient {*/
+/*  @apply text-gradient-to-right;*/
+/*  @apply text-white-to-black;*/
+/*}*/
 /* Налаштування заголовків */
 /* Встановлює розмір заголовків h1 на 24 пікселі, жирність на bold. */
 /* H1 - Головні підрозділи */
