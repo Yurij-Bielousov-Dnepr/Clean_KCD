@@ -1,13 +1,36 @@
-{% extends 'base.html' %}
-{% load i18n %}
-{% block content %}
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1>{% trans "Success!" %}</h1>
-        <p>{% trans "Your request has been successfully submitted." %}</p>
-        <a href="{% url 'index' %}" class="btn btn-primary">{% trans "Home" %}</a>
-      </div>
-    </div>
-  </div>
-{% endblock %}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <title>Kayak Club Dnipro</title>
+         <link rel="stylesheet" href="/css\style.css">
+</head>
+<body>
+
+    <section class="success">
+      <h2>Вітаємо!</h2>
+      <img src="images/success-anchor.png" alt="Якір">
+      <p>
+        Ваш запит успішно оброблено!
+        Ваш курс прокладений,
+        і ви готові вирушати в
+        захоплюючу подорож!
+      </p>
+<!--      <p>-->
+<!--        **Ваші наступні кроки:**-->
+<!--      </p>-->
+      <ul>
+        <li>Перевірте свою електронну пошту чи месенджер
+        для отримання підтвердження  та інструкцій.</li>
+        <li>Зв'яжіться з нами, якщо  виникнуть будь-які питання.</li>
+        <li>Підготуйтеся до незабутніх пригод!</li>
+      </ul>
+      <a href="index.html" class="button">В гавань</a>
+    </section>
+</body>
+  <footer>
+    <p>Kayak Club Dnipro & Yurk0&copy; 2024</p>
+    <p>Зв'язатися з нами: <a href="https://www.facebook.com/kayakclubdnipro">Facebook</a> | <a href="https://www.instagram.com/kayakclubdnipro/">Instagram</a></p>
+  </footer>
+
+</html>
