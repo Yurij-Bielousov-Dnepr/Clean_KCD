@@ -70,22 +70,24 @@
       <p>
         Не здавайтеся! Це можна виправити трьома способами:
       </p>
-      <style>
-.centered-list {
-  display: flex;
-  justify-content: center;
+<style>
+.numbered-list {
+  counter-reset: my-counter;
 }
 
-.centered-list li {
-  padding-left: 10px;
+.numbered-list li {
+  counter-increment: my-counter;
+  position: relative;
+  list-style-type: none;
+  padding-left: 2em;
 }
 </style>
-      <ol class="centered-list">
+      <ol class="numbered-list">
 
-        <li>Подзвонити нам за номером: 0966748338 якщо це не ніч))) <br>
-          Дзвінки приймаються з 10:00 до 20:00 кожен день.</li>
-        <li>Написати адміністратору в месенджер ТГ @kayak_klub</li>
-        <li>або повернутись на попередню сторінку і обрати інший шлях.</li>
+        <li>1) Подзвонити нам за номером: 0966748338 якщо це не ніч))) <br>
+          Дзвінки приймаються з 10:00 до 20:00 кожен день.</li><br>
+        <li>2) Написати адміністратору в месенджер ТГ @kayak_klub<br></li>
+        <li>3) або повернутись на попередню сторінку і обрати інший шлях.<br></li>
       </ol>
       <a href="index.html" class="button">В гавань</a>
     </section>
