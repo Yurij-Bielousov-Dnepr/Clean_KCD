@@ -61,6 +61,31 @@ ul,ol{
   background-image: url('img/new_location_KCD.png'); /* Шлях до вашого фонового зображення */
   background-attachment: fixed;
 }
+ .contact-link{
+ font-weight: 400;
+  font-size: 14px;
+  text-decoration: underline;
+  line-height: 24px;
+  color: #2979ff;
+}
+.question {
+    font-weight: bold;
+    cursor: pointer;
+  }
+.answer {
+    display: none;
+  }
+.toggle-button {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .toggle-button::after {
+    content: "+";
+    float: right;
+    font-size: 20px;
+  }
 /*  background: linear-gradient(to right, #f0f8ff, #0000ff);*/
 
 /*  .text-gradient linear-gradient(to right,#fff000 ,{*/
