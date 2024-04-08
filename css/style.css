@@ -13,13 +13,57 @@
 /* Загальні налаштування */
 /* Встановлює стандартний шрифт на Montserrat, розмір шрифту на 16 пікселів, колір шрифту на #000 і колір фону на #fff. */
 body {
+  background: #f6f6fa;
+  font-size: large;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  color: #000;
-background: linear-gradient(to right,#fff000 , #0057b7);
-/*  background: linear-gradient(to right, #f0f8ff, #0000ff);*/
+  background: linear-gradient(to right,#fff000 , #0057b7);
 }
-/*  .text-gradient {*/
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.main-content {
+  padding-left: 88px;
+  padding-right: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+.wrapper {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+}
+.column {
+   margin-top: 20px; /* Додати верхній відступ */
+      float: inline-start;
+      width: 30%; /* Кожен стовпчик займатиме 33.33% ширини */
+      padding: 10px;
+      border: 4px solid #0057b7;
+  border-radius: 10px 20px 30px 40px;/*
+    * Верхній правий кут: 10px
+    * Верхній лівий кут: 20px
+    * Нижній лівий кут: 30px
+    * Нижній правий кут: 40px
+  */
+  margin: 10px; /* Додати 10 пікселів відступу навколо рамки */
+    }
+  .p-centr {
+  text-align: center;
+}
+.container2 {
+  background-image: url('img/new_location_KCD.png'); /* Шлях до вашого фонового зображення */
+  background-attachment: fixed;
+}
+/*  background: linear-gradient(to right, #f0f8ff, #0000ff);*/
+
+/*  .text-gradient linear-gradient(to right,#fff000 ,{*/
 /*  @apply text-gradient-to-right;*/
 /*  @apply text-white-to-black;*/
 /*}*/
