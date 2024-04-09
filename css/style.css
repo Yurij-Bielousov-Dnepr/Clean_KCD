@@ -147,7 +147,10 @@ a {
   color: #00f; /* Orange (#f5a623) був синій #00f; */
   text-decoration: none;
 }
-
+.menu-item
+  {
+  text-align: center;
+}
 /* Налаштування кнопок */
 /* Встановлює колір фону кнопок на #00f, колір шрифту на #fff, радіус закруглення на 5 пікселів, відступи зверху і знизу на 10 пікселів і зліва і справа на 20 пікселів. */
 button {
@@ -198,6 +201,7 @@ section#menu > ul > li {
   border: 1px solid #ff7f00;
 }
 .footer-info-item {
+  vertical-align: top;
   display: inline-block;
   margin-right: 1rem;
 }
