@@ -18,22 +18,22 @@
   <header class="header">
 
 
-    <script>
-    function openModal() {
-        document.getElementById('popup').style.display = 'block';
-    }
+<!--    <script>-->
+<!--    function openModal() {-->
+<!--        document.getElementById('popup').style.display = 'block';-->
+<!--    }-->
 
-    function closeModal() {
-        document.getElementById('popup').style.display = 'none';
-    }
+<!--    function closeModal() {-->
+<!--        document.getElementById('popup').style.display = 'none';-->
+<!--    }-->
 
-    // Открытие модального окна при загрузке страницы, если якорь в URL равен "popup:START1"
-    window.onload = function() {
-        if (window.location.hash === "#popup:START1") {
-            openModal();
-        }
-    }
-</script>
+<!--    // Открытие модального окна при загрузке страницы, если якорь в URL равен "popup:START1"-->
+<!--    window.onload = function() {-->
+<!--        if (window.location.hash === "#popup:START1") {-->
+<!--            openModal();-->
+<!--        }-->
+<!--    }-->
+<!--</script>-->
  <div class="logo-and-menu">
   <a href="https://kayakclubdnipro.com.ua/">
     <img src="images\logo_KCD_no_fon.png" alt="Лого">
@@ -117,20 +117,28 @@
 <!--&gt;-->
 <!--        <a class="contact-link p-centr" href="tel:+38096 674-83-38">Забронювати відпочинок >>></a>-->
 
-          <button onclick="openModal();">Відкрити модальне вікно</button>
+    <button onclick="openModal();">Забронювати відпочинок >>></button>
 
-    <a class="contact-link p-centr"  href="tel:+38096 674-83-38" onclick="openModal();">Забронювати відпочинок >>></a>
-          <div class="modal-container" id="modalContainer">
-    <div class="modal-content">
-        ➜ ЧЕКАЄМО НА ВАШ ДЗВІНОК<br>
-        <img src="images/Index/icon-telegram.png" alt="Telegram" style="vertical-align: middle; width: 16px; height: 16px;">
-        <img src="images/Index/icon-viber.png" alt="Viber" style="vertical-align: middle; width: 16px; height: 16px;">
-        <a class='tn-atom' href='tel:+380966748338'>+380 (96) 674-83-38 </a><br>
-        <img src="images/icon-telegram.png" alt="Telegram" style="vertical-align: middle; width: 16px; height: 16px;">
-        <a class='tn-atom' href='tel:+380668967747'>+380 (66) 896-77-47 </a>
-        <span class="modal-close" onclick="closeModal();">&times;</span>
-    </div>
+<div class="modal-container" id="modalContainer">
+  <div class="modal-content"> <span class="modal-close"  onclick="closeModal();">&times;</span>
+    ➜ ЧЕКАЄМО НА ВАШ ДЗВІНОК<br>
+    <img src="images/Index/icon-telegram.png" alt="Telegram" style="vertical-align: middle; width: 16px; height: 16px;">
+    <img src="images/Index/icon-viber.png" alt="Viber" style="vertical-align: middle; width: 16px; height: 16px;">
+    <a class='tn-atom' href='tel:+380966748338'>+380 (96) 674-83-38 </a><br>
+    <img src="images/Index/icon-telegram.png" alt="Telegram" style="vertical-align: middle; width: 16px; height: 16px;">
+    <a class='tn-atom' href='tel:+380668967747'>+380 (66) 896-77-47 </a>
+
+
+  </div>
 </div>
+<script>
+function openModal() {
+  document.getElementById("modalContainer").style.display = "block";
+}
+  function closeModal() {
+  document.getElementById("modalContainer").style.display = "none";
+}
+</script>
  </main>
             <div class="orange-stripe"></div>
 
