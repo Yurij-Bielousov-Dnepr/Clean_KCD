@@ -1,11 +1,6 @@
 /*! HTML5 Boilerplate v9.0.0-RC1 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -44,8 +39,7 @@ ul,ol{
    margin-top: 20px; /* Додати верхній відступ */
       float: inline-start;
       width: 30%; /* Кожен стовпчик займатиме 33.33% ширини */
-      padding: 10px;
-      border: 4px solid #0057b7;/*
+      padding: 10px;/*
     * Верхній правий кут: 10px
     * Верхній лівий кут: 20px
     * Нижній лівий кут: 30px
@@ -54,31 +48,24 @@ ul,ol{
   margin: 10px; /* Додати 10 пікселів відступу навколо рамки */
     }
 .column1 {
-  border-radius: 10px 40px 10px 40px;
+  border: 4px solid #0057b7;
+  border-radius: 40px 10px 40px 10px;
 }
-.column2-8 {
-  border-radius: 0px 0px 30px 30px;
-}
-.column3 {
-  border-radius: 40px 20px 30px 40px;
-}
-.column4 {
-  border-radius: 10px 20px 30px 40px;
-}
-.column5 {
-  border-radius: 40px 40px 40px 40px;
-}
-.column6 {
-  border-radius: 10px 20px 30px 40px;
-}
-.column7 {
-  border-radius: 10px 20px 30px 40px;
-}
-.column9 {
-  border-radius: 10px 20px 30px 40px;
+.column_2 {
+  margin-top: 20px; /* Додати верхній відступ */
+  display: flex; /* Використовувати flexbox */
+  flex-direction: row; /* Розмістити колонки в рядку */
+  padding: 10px;
+  margin: 10px; /* Додати 10 пікселів відступу навколо рамки */
+  flex-grow: 1; /* Розширити стовпчики, щоб заповнити простір */
 }
   .p-centr {
   text-align: center;
+}
+.background1 {
+  background-image: url('images/fon_rozdil.png');
+  background-size: cover; /* Масштабувати зображення, щоб воно повністю заповнило div */
+  background-position: center; /* Розмістити зображення по центру div розібратися */
 }
 .container2 {
   background-image: url('img/new_location_KCD.png'); /* Шлях до вашого фонового зображення */
@@ -153,11 +140,19 @@ ul,ol{
       float: right; /* Перемістити кнопку вправо */
        margin-left: auto; /* Автоматично перемістити вправо */
     }
-  .logo-and-menu {
+.logo-and-menu {
   display: grid; /* Grid layout для розміщення лого, опису та меню */
-  grid-template-columns: 1fr 2fr; /* Дві колонки: 1fr для лого та опису, 2fr для меню */
+  grid-template-columns: 1fr 2fr 3fr; /* Дві колонки: 1fr для лого та опису, 2fr для меню */
   align-items: center; /* Вирівняти елементи по вертикалі по центру */
 }
+.contact-block {
+  /* Стилі для нового div-контейнера */
+  display: flex; /* Flexbox для розміщення контактів та адреси в ряд */
+  flex-direction: column; /* Розміщення елементів зверху вниз */
+  align-items: flex-end; /* Вирівняти елементи по правому краю */
+  margin-bottom: 10px; /* Додати відступ знизу */
+}
+
 .orange-stripe {
   background-color: orange; /* Помаранчевий фон */
   height: 12px; /* Висота стрічки */
