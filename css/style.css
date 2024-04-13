@@ -165,6 +165,12 @@ ul,ol{
 .menu {
   /* Стилі для меню */
 }
+  .two-gird {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-items: center;
+}
 /*  background: linear-gradient(to right, #f0f8ff, #0000ff);*/
 
 /*  .text-gradient linear-gradient(to right,#fff000 ,{*/
