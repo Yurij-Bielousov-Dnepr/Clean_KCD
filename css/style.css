@@ -108,7 +108,22 @@ ul,ol{
   .pomeran-color{
   color: orange;
 }
-    .modal-container {
+button[onclick="openModal();"] {
+  background-color: orange;
+  border-radius: 15px;
+  position: static;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button-container {
+  display: flex; /* Включити flexbox */
+  justify-content: center; /* Центрувати по горизонталі */
+  align-items: center; /* Центрувати по вертикалі */
+  padding: 10px; /* Додати відступи по 10 пунктів */
+}
+
+.modal-container {
         display: none;
         position: fixed;
         z-index: 999;
@@ -127,6 +142,7 @@ ul,ol{
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: orange;
+        display: flex;
         padding: 20px;
         max-width: 25%; /* Приклад адаптивної ширини */
 
@@ -137,7 +153,7 @@ ul,ol{
         top: 10px;
         right: 10px;
         cursor: pointer;
-      float: right; /* Перемістити кнопку вправо */
+       float: right; /* Перемістити кнопку вправо */
        margin-left: auto; /* Автоматично перемістити вправо */
     }
 .logo-and-menu {
@@ -170,6 +186,10 @@ ul,ol{
   grid-template-columns: 1fr 2fr;
   align-items: center;
   justify-items: center;
+}
+  .price-image {
+  max-width: 100%;
+  height: auto; /* Зберігає пропорції зображення */
 }
 /*  background: linear-gradient(to right, #f0f8ff, #0000ff);*/
 
