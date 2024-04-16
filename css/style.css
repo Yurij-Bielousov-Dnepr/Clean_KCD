@@ -76,7 +76,7 @@ ul,ol{
   font-size: 14px;
   text-decoration: underline;
   line-height: 24px;
-  color: orange;
+/*  color: orange;*/
   text-align: center;
 }
 .question {
@@ -111,25 +111,25 @@ ul,ol{
 button[onclick="openModal();"] {
   background-color: orange;
   border-radius: 15px;
-  position: static;
+  position: relative;
   top: 50%;
   left: 50%;
+   padding: 10px;
   transform: translate(-50%, -50%);
 }
 .button-container {
   display: flex; /* Включити flexbox */
   justify-content: center; /* Центрувати по горизонталі */
   align-items: center; /* Центрувати по вертикалі */
-  padding: 10px; /* Додати відступи по 10 пунктів */
+  padding: 10px; /* Додати відступи по 10 пунктів sticky fixed*/
 }
 
 .modal-container {
         display: none;
-        position: fixed;
+        position: ;
         z-index: 999;
         top: 0;
         left: 0;
-/*  color: orange;*/
   align-items: center;
         width: 100%;
         height: 100%;
