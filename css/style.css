@@ -79,6 +79,17 @@ ul,ol{
 /*  color: orange;*/
   text-align: center;
 }
+.no-copy {
+  user-select: none;
+}
+.image {
+  max-height: 300px; /* Обмеження по висоті */
+  margin: 0 auto;
+  display: block;
+}
+.no-coma {
+  list-style-type: none;
+}
 .question {
     font-weight: bold;
 
