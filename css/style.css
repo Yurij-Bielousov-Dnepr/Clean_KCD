@@ -271,6 +271,8 @@ button {
   color: #fff;
   border-radius: 5px;
   padding: 10px 20px;
+    text-align: center;
+
 }
 .img-icon {
       width: 20px; /* Ширина зображення = 20 пікселів */
