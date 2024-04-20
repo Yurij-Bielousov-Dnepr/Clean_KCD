@@ -287,7 +287,20 @@ button {
     width: 80%;
   }
 }
+.video-container {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%; /* 9:16 aspect ratio */
+  height: 50px; /* Висота 300 пікселів */
+}
 
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 /* Форматування для мобільних телефонів */
 /* Встановлює розмір шрифту для всіх елементів на 14 пікселів для мобільних пристроїв і ширину контейнерів на 100%. */
 @media screen and (max-width: 767px) {
