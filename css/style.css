@@ -107,7 +107,6 @@ ul,ol{
     cursor: pointer;
 /*    color: lightyellow;*/
   width: 95%; /* ширина кнопок*/
-/*  display: flex; *//* Додати цю властивість */
 /*  justify-content: space-between; *//* Додати цю властивість */
   align-items: center; /* Додати цю властивість */
   }
